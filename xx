@@ -7,7 +7,7 @@ local function drawshit(player)
     local lookangle = Drawing.new("Line")
     lookangle.Visible = false
     lookangle.Thickness = 1
-    lookangle.Color = Color3.fromRGB(255, 0, 89)
+    lookangle.Color = Color3.fromRGB(255, 0, 0)
 
     local function updater()
         local c
